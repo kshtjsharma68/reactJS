@@ -13,9 +13,9 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
-<body>
-<div id="root"></div>
-    <div id="app">
+<body style="background:#023436">
+
+    <div id="app" >
         <nav class="navbar navbar-default navbar-static-top">
             <div class="container">
                 <div class="navbar-header">
@@ -74,7 +74,7 @@
 
         @yield('content')
     </div>
-
+    
     <!-- Scripts -->
     <script src="{{ mix('js/app.js') }}"></script>
 </body>
